@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300&display=swap");
+
+.roboto {
+  font-family: "Raleway", sans-serif;
+}
+.cord {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+.barbtm5 {
+  margin-top: 10px;
+  width: 100px;
+  height: 2px;
+  background-color: lightslategray;
+  border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: white;
+}
+nav {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(assets/bckgrnd.png);
+  background-position: center;
+  background-size: cover;
+}
+.nav-top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.nav-logo {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.nav-contact-details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-contact-details h1 {
+  width: 90%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atems {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atems:hover h5 {
+  text-decoration: underline;
+}
+.menu {
+  transition: 0.3s;
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  width: 30px;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin: 6px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.change .first {
+  transform: translate(0, 9px) rotate(-45deg);
+}
+.change .second {
+  opacity: 0;
+}
+.change .thirst {
+  transform: translate(0, -9px) rotate(45deg);
+}
+
+.nav-bottom {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 1);
+}
+.nav-items {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.atems {
+  color: white;
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.items {
+  width: 100%;
+  border-right: 1px solid beige;
+  text-align: center;
+}
+.items:nth-child(4) {
+  border: none;
+}
+.presentation {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(assets/bckgrnd.png);
+  background-position: center;
+  background-size: cover;
+}
+.tittle {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+.barbtm {
+  margin-top: 10px;
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  border-radius: 20px;
+}
+.presentation-part {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+.text-part {
+  width: 50%;
+  text-align: justify;
+}
+.img-part {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-part img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  width: 100%;
+  height: 55vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer {
+  width: 100%;
+  height: 90%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.footer-details {
+  padding-right: 40px;
+  width: 80%;
+  height: 70%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-details:nth-child(1) {
+  width: 40%;
+}
+.footer-details:nth-child(2) {
+  width: 40%;
+}
+.footer-details:nth-child(2) .barbtm5 {
+  width: 50px;
+}
+.details-footer h4,
+.informations-legales h4,
+.navigation a {
+  margin-top: 20px;
+}
+.details-footer a:hover {
+  text-decoration: underline;
+}
+.navigation a {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contactez-nous | IMARA TRADE</title>
+
+    <link
+      rel="shortcut icon"
+      href="assets/Logo-imara-trade.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="contact-mediascreen.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-top">
+        <div class="nav-logo"><img src="assets/Logo-imara-trade.png" /></div>
+        <div class="nav-contact-details">
+          <h1>SARL INTERNATIONAL IMARA TRADE</h1>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        <ul class="nav-items">
+          <li class="items gg cc ff">
+            <a class="atems roboto" href="home.html" onclick="itemsClick(this)"
+              ><i class="fa-solid fa-house"></i>&ensp;
+              <h5>Acceuil</h5>
+              <div class="baranm"></div
+            ></a>
+          </li>
+          <li class="items">
+            <a
+              class="atems roboto"
+              href="presentation.html"
+              onclick="itemsClick(this)"
+              ><i class="fa-regular fa-address-card"></i>&ensp;
+              <h5>Présentation</h5></a
+            >
+          </li>
+          <li class="items">
+            <a
+              class="atems roboto"
+              href="nos-interventions.html"
+              onclick="itemsClick(this)"
+              ><i class="fa-solid fa-person-digging"></i>&ensp;
+              <h5>Nos interventions</h5></a
+            >
+          </li>
+          <li class="items">
+            <a
+              class="atems roboto"
+              href="contact.html"
+              onclick="itemsClick(this)"
+              ><i class="fa-regular fa-envelope"></i>&ensp;
+              <h5>Contactez-nous</h5></a
+            >
+          </li>
+        </ul>
+        <div class="menu" onclick="barsMenu(this)">
+          <div class="bar first"></div>
+          <div class="bar second"></div>
+          <div class="bar thirst"></div>
+        </div>
+      </div>
+    </nav>
+    <section class="contact">
+      <div class="tittle">
+        <h1 class="roboto">CONTACTEZ-NOUS</h1>
+        <div class="barbtm"></div>
+      </div>
+      <div class="contact-part">
+        <div class="contact-details">
+          <div class="details-tittle">
+            <h1 class="roboto">COORDONNÉES</h1>
+            <div class="barbtm"></div>
+          </div>
+          <div class="details-contact">
+            <h4>
+              <i class="fa-solid fa-map-location-dot"></i>&ensp;
+              <span class="roboto">Adresse :</span>
+              <span class="cord"
+                >Boulevard de l'avenir Villa n°10 Oued Romane El Achour
+                Alger</span
+              >
+            </h4>
+            <h4>
+              <i class="fa-solid fa-phone"></i>&ensp;<span class="roboto"
+                >Tél. : </span
+              ><span class="cord"> 023 12 23 69 / 0661 20 22 40</span>
+            </h4>
+            <h4>
+              <i class="fa-solid fa-envelope"></i>&ensp;<span class="roboto"
+                >Email :</span
+              >
+              <span class="cord">Internationalimaratrade@gmail.com</span>
+            </h4>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12856.952825702914!2d3.006488489015472!3d36.73923187056781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7737c5b0876867e9!2sSARL%20INTERNATIONAL%20IMARA%20TRADE!5e1!3m2!1sen!2sch!4v1672365661760!5m2!1sen!2sch"
+            width="100%"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contact-form">
+          <div class="form-group">
+            <h4 for="name roboto">Nom / Prénom :</h4>
+            <input
+              type="name"
+              class="form-control"
+              id="name"
+              class="name"
+              placeholder="Enter your name."
+            />
+          </div>
+          <div class="form-group">
+            <h4 for="email roboto">Email :</h4>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email."
+            />
+          </div>
+          <div class="form-group">
+            <h4 for="message roboto">Message :</h4>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="6"
+              placeholder="Enter your message."
+            ></textarea>
+          </div>
+          <button class="btn roboto" type="submit" onclick="sendMail()">
+            ENVOYER
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="footer-details">
+          <div class="details-tittle">
+            <h4 class="roboto">INFORMATIONS LÉGALES</h4>
+            <div class="barbtm5"></div>
+            <div class="informations-legales">
+              <h4>
+                <span class="roboto">RC N° :</span
+                ><span class="cord">&ensp;16/00-1017165821</span>
+              </h4>
+              <h4>
+                <span class="roboto">NIS :</span
+                ><span class="cord">&ensp;0 021 1652 01805 47</span>
+              </h4>
+              <h4>
+                <span class="roboto">NIF :</span
+                ><span class="cord">&ensp;002116101716557</span>
+              </h4>
+              <h4>
+                <span class="roboto">ART :</span
+                ><span class="cord">&ensp;16520 28 32 61</span>
+              </h4>
+            </div>
+          </div>
+          <div class="details-contact">
+            <p></p>
+          </div>
+        </div>
+        <div class="footer-details">
+          <div class="details-tittle">
+            <h4 class="roboto">NAVIGATION</h4>
+            <div class="barbtm5"></div>
+            <div class="navigation">
+              <a href="home.html">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                &ensp;
+                <h4 class="roboto">Acceuil</h4>
+              </a>
+              <a href="presentation.html">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                &ensp;
+                <h4 class="roboto">Présentation</h4>
+              </a>
+              <a href="nos-interventions.html">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                &ensp;
+                <h4 class="roboto">Nos Interventions</h4>
+              </a>
+              <a href="contact.html">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                &ensp;
+                <h4 class="roboto">Contactez-nous</h4>
+              </a>
+            </div>
+          </div>
+          <div class="details-contact">
+            <p></p>
+          </div>
+        </div>
+        <div class="footer-details">
+          <div class="details-tittle">
+            <h4 class="roboto">COORDONNÉES</h4>
+            <div class="barbtm5"></div>
+          </div>
+          <div class="details-footer">
+            <h4>
+              <i class="fa-solid fa-map-location-dot"></i>&ensp;
+              <span class="roboto">Adresse :</span>
+
+              <a href="https://goo.gl/maps/6xf8gQyiZ2sa6ua86" target="_blank">
+                <span class="cord">
+                  Boulevard de l'avenir Villa n°10 Oued Romane El Achour
+                  Alger</span
+                ></a
+              ><span class="cord">.</span>
+            </h4>
+            <h4>
+              <i class="fa-solid fa-phone"></i>&ensp;<span class="roboto"
+                >Tél. :
+              </span>
+              <a href="tel:+21323122369"
+                ><span class="cord">023 12 23 69</span></a
+              >
+              &ensp;/&ensp;
+              <a href="tel:+213661202240"
+                ><span class="cord">0661 20 22 40</span></a
+              ><span class="cord">.</span>
+            </h4>
+            <h4>
+              <i class="fa-solid fa-envelope"></i>&ensp;<span class="roboto"
+                >Email :</span
+              >
+              <span class="cord">Internationalimaratrade@gmail.com</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <h4 class="roboto">© 2022.</h4>
+        <h5 class="roboto" style="color: lightslategrey">
+          SARL INTERNATIONAL IMARA TRADE.
+        </h5>
+        <h4 class="roboto">Tous droits réservés.</h4>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
