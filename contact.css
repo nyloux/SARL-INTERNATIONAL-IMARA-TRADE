@@ -143,7 +143,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(assets/bckgrnd.png);
+  background: url(assets/bckgrnd.svg);
   background-position: center;
   background-size: cover;
 }
