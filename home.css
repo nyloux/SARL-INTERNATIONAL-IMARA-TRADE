@@ -29,7 +29,7 @@ section {
   height: 100vh;
 }
 .home {
-  background: url(assets/bckgrnd.png);
+  background: url(assets/bckgrnd.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
